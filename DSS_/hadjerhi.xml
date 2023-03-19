@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personne SYSTEM "hadjerhi.dtd">
+<personne>
+    <nom>Dupond</nom>
+    <prenom> Jean</prenom>
+    <dateNaissane>1980-07-02</dateNaissane>
+    <ville>Compiegne</ville>
+    <sexe>Homme</sexe>
+    <enfants>
+        <nom_complet>Dupond Christophe</nom_complet>
+        <nom_complet>Dupond Emma</nom_complet>
+    </enfants>
+</personne>

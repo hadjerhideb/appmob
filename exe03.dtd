@@ -1,0 +1,7 @@
+<!ELEMENT calendrier (evenement)>
+<!ELEMENT evenement (date, description , heure?, duree?)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT heure (#PCDATA)>
+<!ELEMENT duree (#PCDATA)>
+<!ATTLIST evenement repetition (semaine | annee |mois) #REQUIRED>
